@@ -1,0 +1,7 @@
+[project]
+name = "eleven-labs-podcast-processor"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "elevenlabs>=2.77.0",
+]

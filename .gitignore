@@ -1,3 +1,7 @@
 config.py
 input.txtt
 input.txt
+.idea
+__pycache__
+.DS_Store
+*.mp3

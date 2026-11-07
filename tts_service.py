@@ -3,6 +3,8 @@ import os
 import re
 from elevenlabs.client import ElevenLabs
 
+from config import ELEVEN_MODEL_ID
+
 
 def process_and_generate_audio(file_path, api_key, voice_id, output_filename, max_chars):
     print("--- PIPELINE STARTED ---")
@@ -47,7 +49,7 @@ def process_and_generate_audio(file_path, api_key, voice_id, output_filename, ma
             voice_id=voice_id,
             output_format="mp3_44100_128",
             text=chunk,
-            model_id="eleven_multilingual_v2"
+            model_id=ELEVEN_MODEL_ID,
         )
 
         with open(temp_filename, "wb") as f:

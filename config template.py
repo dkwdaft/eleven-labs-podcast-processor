@@ -3,6 +3,7 @@
 # Your ElevenLabs API credentials
 MY_API_KEY = "your_actual_api_key_here"
 MY_VOICE_ID = "your_chosen_voice_id_here"
+ELEVEN_MODEL_ID = "eleven_v4"
 
 # File and processing settings
 INPUT_FILE = "input.txt"

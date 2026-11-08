@@ -5,3 +5,4 @@ input.txt
 __pycache__
 .DS_Store
 *.mp3
+*.m4a
